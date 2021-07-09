@@ -1,0 +1,18 @@
+{
+  "extends": "react-native-wcandillon",
+  "rules": {
+    "camelcase": ["error", { "properties": "never" }],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".tsx"] }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "parser": "flow"
+      }
+    ],
+    "fixToUnknown": "false"
+  }
+}
